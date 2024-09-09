@@ -1,2 +1,2 @@
 # HTML-CSS
- Aulas de HTML e CSS Infinity
+ Aulas de HTML e CSS Infinity School
