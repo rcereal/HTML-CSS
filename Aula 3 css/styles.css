@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+.barra-principal {
+}
+
+.barra-principal nav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.barra-principal ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.barra-principal a{
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.barra-principal a:hover{
+    color: rgb(252, 164, 0);
+}
+
+.header-principal {
+    background-image: url('./imgs/pizza.PNG');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 5rem 0;
+}
+
+.header-principal .opacity{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 31, 31, 0.788);
+}
+
+
+.header-principal h2, p{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 6px;
+}
+.header-principal h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.header-principal p {
+    font-size: 25px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#sobrenos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+#conteudo1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.pizzas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-block: 7rem;
+}
+
+.pizzas img {
+    border-radius: 15px;
+    width: 30rem;
+    height: 26rem;
+}
+#cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardapio table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1rem;
+}
+
+#cardapio img{
+    /* border-radius: 15px; */
+    padding: 5px;
+    width: 10rem;
+    height: 10rem;
+}
+
+#entre-em-contato {
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.todo-contato {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.todo-contato div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.todo-contato h4 {
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.todo-contato a {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(250, 98, 124);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}

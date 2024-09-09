@@ -1,0 +1,43 @@
+#home {
+    width: 100%;
+    height: 18rem;
+    background-image: url('https://web-assets.esetstatic.com/tn/-x425/wls/2022/10/roubo_codigo_fonte_1920x1080_.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home > div {
+    background-color: rgba(0, 0, 0, 0.278);
+} 
+
+.sociais img {
+    width: 3rem;
+}
+
+.tecnologias img {
+    width: 4.5rem;
+}
+
+.link-projeto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(127, 206, 255, 0.604);
+    transform: translateY(100%);
+    transition: transform 0.4s;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .link-projeto {
+    transform: translateY(0);
+}
+
+@media (min-width: 996px) {
+    .profile {
+        width: 35%;
+    }
+}

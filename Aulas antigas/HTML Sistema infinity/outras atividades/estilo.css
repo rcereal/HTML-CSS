@@ -1,0 +1,41 @@
+/* Estilo para dispositivos móveis */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0046ad;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14pt;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #ff0000;
+}
+
+nav ul li:first-child a {
+    color: #ff0000;
+    border-top: 1px solid #ff0000;
+}
+
+nav ul li:last-child a {
+    border-bottom: none;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc29;
+    color: #fff;
+}

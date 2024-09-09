@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seus Dados</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        fieldset {
+            width: 39rem;
+        }
+
+        h1 {
+            border: 2px solid rgb(0, 0, 0);
+            width: 33rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Dados necessários para inscrição.</h1>
+    <br>
+    <form action="">
+        <label for="nome">Digite seu nome completo:
+            <input type="text" id="nome" required>
+        </label>
+
+        <br><br>
+
+        <label for="email">Digite um email válido:
+            <input type="email" id="email">
+        </label>
+
+        <label for="senha">Digite uma senha:
+            <input type="password" id="senha" required>
+        </label>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Selecione o que você mais gosta de fazer (Selecione uma ou mais opções):</legend>
+            <label>
+                <input type="checkbox" name="atividades[]" value="Ler"> Ler
+            </label>
+
+            <label>
+                <input type="checkbox" name="atividades[]" value="Nadar"> Nadar
+            </label>
+
+            <label>
+                <input type="checkbox" name="atividades[]" value="Assistir Filmes"> Assistir Filmes
+            </label>
+
+            <label>
+                <input type="checkbox" name="atividades[]" value="Cozinhar"> Cozinhar
+            </label>
+
+            <label>
+                <input type="checkbox" name="atividades[]" value="Praticar Esportes"> Praticar Esportes
+            </label><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Tem disponibilidade durante o tempo integral?</legend>
+            <label>
+                <input type="radio" id="opcao1" name="opcoes" value="opcao1"> Sim
+            </label><br>
+
+            <label>
+                <input type="radio" id="opcao2" name="opcoes" value="opcao2"> Não
+            </label><br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+
+</html>

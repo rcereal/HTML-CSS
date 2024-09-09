@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+body {
+    background-image: url(img\ lolapaloza/fundo.jpg);
+    background-size: contain;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.whatsapp-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    /* background-color: rgb(0, 240, 0); */
+    padding: 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.whatsapp-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-principal {
+    box-shadow: 0 0 5px gray;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+    height: 100px;
+}
+
+.header-principal img{
+    margin-top: -45px;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.header-principal ul {
+    display: inline-block;
+    list-style: none;
+    width: 90%;
+    text-align: end;
+
+}
+
+.header-principal ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: 90%;
+}
+
+.header-principal ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+section {
+    margin: 100px;
+    text-align: center;
+}
+section div{
+    margin-bottom: 100px;
+}
+
+.primeira_sec img {
+    width: 60px;
+}
+
+.primeira_sec div{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.primeira_sec h2 {
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(255, 255, 0);
+}
+
+.primeira_sec h3 {
+    font-size: 24px;
+}
+
+.segunda_sec {
+    font-size: 30px;
+}
+
+.terceira_sec a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgb(255, 25, 94);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.globolola {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+/*     gap: 20%; */
+    align-items: center;
+}
+.globolola h3 {
+    color: white;
+    font-size: 2rem;
+}
+.globolola a {
+    text-decoration: none;
+    width: 23rem;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 17, 72);
+    color: white;
+    font-weight: 700;
+    
+}
+.botao {
+    
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 17, 72);
+    border-radius: 20px;
+    margin-left: 15rem;
+
+}
+footer {
+    background-color: black;
+}
